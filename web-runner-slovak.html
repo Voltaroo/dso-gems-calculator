@@ -1,0 +1,101 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kalkulačka na drahokamy</title>
+    </head>
+    <body>
+        
+        <header>Kalkulačka na drahokamy</header>
+        <div class="about">
+            <div>
+                <h2><u>Ako to funguje</u></h2>
+                <p>Do kalkulačky zadáte množstvo kameňov a ich raritu, a kalkulačka vypočíta koľko prachu potrebujete na max. raritu.</p>
+            </div>
+        </div>
+        <div class="calc-window">
+            <div id="calc">
+                <input type="number" min="0" id="quantity" value="0" placeholder="Počet kameňov..">
+                <select id="tier-now" name="Tier now">
+                    <option value="0">Vyber raritu čo máš..</option>
+                    <option value="1">Surový</option>
+                    <option value="2">Roztrieštený</option>
+                    <option value="3">Obyčajný</option>
+                    <option value="4">Celý</option>
+                    <option value="5">Brúsený</option>
+                    <option value="6">Žiariaci</option>
+                    <option value="7">Dokonalý</option>
+                    <option value="8">Posvätný</option>
+                    <option value="9">Kráľovský</option>
+                    <option value="10">Lichobežníkový</option>
+                    <option value="11">Vycibrený lichobežníkový</option>
+                    <option value="12">Brilantný lichobežníkový</option>
+                    <option value="13">Znamenitý lichobežníkový</option>
+                    <option value="14">Imperiálny</option>
+                    <option value="15">Vycibrený imperiálny</option>
+                    <option value="16">Brilantný imperiálny</option>
+                    <option value="17">Znamenitý imperiálny</option>
+                </select>
+                <select id="tier-want" name="Wanted tier">
+                    <option value="0">Vyber raritu čo chceš..</option>
+                    <option value="1">Surový</option>
+                    <option value="2">Roztrieštený</option>
+                    <option value="3">Obyčajný</option>
+                    <option value="4">Celý</option>
+                    <option value="5">Brúsený</option>
+                    <option value="6">Žiariaci</option>
+                    <option value="7">Dokonalý</option>
+                    <option value="8">Posvätný</option>
+                    <option value="9">Kráľovský</option>
+                    <option value="10">Lichobežníkový</option>
+                    <option value="11">Vycibrený lichobežníkový</option>
+                    <option value="12">Brilantný lichobežníkový</option>
+                    <option value="13">Znamenitý lichobežníkový</option>
+                    <option value="14">Imperiálny</option>
+                    <option value="15">Vycibrený imperiálny</option>
+                    <option value="16">Brilantný imperiálny</option>
+                    <option value="17">Znamenitý imperiálny</option>
+                </select>
+                <select id="gem-type" name="Gem type">
+                    <option value="0">Vyber typ kameňa..</option>
+                    <option value="1">Útočný</option>
+                    <option value="2">Obranný</option>
+                </select>
+            </div>
+            <div class="result-window">
+                <p id="result">Budeš potrebovať <b>x</b> prachu na vylepšenie <b>n</b> kusov <b>y</b> kameňov</p>
+            </div>
+            <div class="sub-header">
+                <h2><u>Tabuľky s hodnotami</u></h2>
+            </div>
+            <div class="table-window">
+                <div class="table-window-separator">
+                    <table id="table-req">
+                        <tr>
+                            <th class="th_header">Vylepšovanie</th>
+                            <th>Obranný</th>
+                            <th>Útočný</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table-window-separator">
+                    <table id="table-melt">
+                        <tr>
+                            <th class="th_header">Tavenie</th>
+                            <th>Obranný</th>
+                            <th>Útočný</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <footer>
+                <p>
+                    Vytvorené užívateľom V0ltaroo v roku 2021. Súbor je pod MIT licenciou.
+                </p>
+            </footer>
+        </div>
+        <script src="src/script-main.js"></script>
+        <style>
+        </style>
+    </body>
+</html>
