@@ -1,0 +1,104 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="src/style-main.css">
+        <title>Calculator for gems</title>
+    </head>
+    <body>
+        
+        <header>Calculator for gems</header>
+        <div class="lang-selection-window">
+            <a href="web-runner-slovak.html">Slovensky</a>
+            <a href="web-runner-english.html">English</a>
+        </div>
+        <div class="about">
+            <div>
+                <h2><u>How does it work</u></h2>
+                <p>Type amount of gems, their current rarity and wanted rarity and calc will calculate final amount required to upgrade.</p>
+            </div>
+        </div>
+        <div class="calc-window">
+            <div id="calc">
+                <input type="number" min="0" id="quantity" value="0" placeholder="Počet kameňov..">
+                <select id="tier-now" name="Tier now">
+                    <option value="0">Select tier you have..</option>
+                    <option value="1">Flawed</option>
+                    <option value="2">Splitnered</option>
+                    <option value="3">Simple</option>
+                    <option value="4">Full</option>
+                    <option value="5">Polished</option>
+                    <option value="6">Radiant</option>
+                    <option value="7">Flawless</option>
+                    <option value="8">Sacred</option>
+                    <option value="9">Royal</option>
+                    <option value="10">Trapazoid</option>
+                    <option value="11">Vycibrený Trapazoid</option>
+                    <option value="12">Brilantný Trapazoid</option>
+                    <option value="13">Znamenitý Trapazoid</option>
+                    <option value="14">Imperial</option>
+                    <option value="15">Vycibrený imperiálny</option>
+                    <option value="16">Brilantný imperiálny</option>
+                    <option value="17">Znamenitý imperiálny</option>
+                </select>
+                <select id="tier-want" name="Wanted tier">
+                    <option value="0">Select tier you want..</option>
+                    <option value="1">Flawed</option>
+                    <option value="2">Splitnered</option>
+                    <option value="3">Simple</option>
+                    <option value="4">Full</option>
+                    <option value="5">Polished</option>
+                    <option value="6">Radiant</option>
+                    <option value="7">Flawless</option>
+                    <option value="8">Sacred</option>
+                    <option value="9">Royal</option>
+                    <option value="10">Trapazoid</option>
+                    <option value="11">Vycibrený lichobežníkový</option>
+                    <option value="12">Brilantný lichobežníkový</option>
+                    <option value="13">Znamenitý lichobežníkový</option>
+                    <option value="14">Imperiálny</option>
+                    <option value="15">Vycibrený imperiálny</option>
+                    <option value="16">Brilantný imperiálny</option>
+                    <option value="17">Znamenitý imperiálny</option>
+                </select>
+                <select id="gem-type" name="Gem type">
+                    <option value="0">Select gem type..</option>
+                    <option value="1">Offensive</option>
+                    <option value="2">Deffensive</option>
+                </select>
+            </div>
+            <div class="result-window">
+                <p id="result">You will need <b>x</b> dust for upgrading <b>n</b> stones!</p>
+            </div>
+            <div class="sub-header">
+                <h2><u>Tables</u></h2>
+            </div>
+            <div class="table-window">
+                <div class="table-window-separator">
+                    <table id="table-req">
+                        <tr>
+                            <th id="th_header">Upgrade req</th>
+                            <th>Deffensive</th>
+                            <th>Offensive</th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="table-window-separator">
+                    <table id="table-melt">
+                        <tr>
+                            <th id="th_header">Melt values</th>
+                            <th>Deffensive</th>
+                            <th>Offensive</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <footer>
+                <p>
+                    Created by V0ltaroo in 2020. MIT licence included.
+                </p>
+            </footer>
+        </div>
+        <script src="src/script-main.js"></script>
+    </body>
+</html>
