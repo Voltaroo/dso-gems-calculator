@@ -23,7 +23,7 @@ P.S.: I'm sorry, but my English is not perfect, but I'm trying to enchance it ev
 
 Vítajte na stránke **Drakensang Online Kalkulačka drahokamov**! Táto stránka ponúka užívateľovi vypočítať koľko prachu potrebuje na vylepšenie jeho kameňov z tieru **x** na tier **y**. 
 
-Hodnoty kameňov môžete nájsť na stránke v *snáď priehľadných* tabuľkách, alebo v **dso-almanachu** [na tejto stránke](http://dso-almanach.cz/drahokamy-v-ce/) (z tejto stránke som bral aj údaje o vyžadovanom počte prachu).
+Hodnoty kameňov môžete nájsť na stránke v *snáď priehľadných* tabuľkách, alebo v **dso-almanachu** [na tejto stránke](http://dso-almanach.cz/drahokamy-v-ce/) (z tejto stránky som bral aj údaje o vyžadovanom počte prachu).
 
 ***
 
