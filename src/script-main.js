@@ -2,7 +2,7 @@ const getID = (x) => document.getElementById(x);
 const crtEL = (x) => document.createElement(x);
 const appCH = (x,y) => x.appendChild(y);
 
-var string_rarity = ['Flawed','Splitered','Simple','Full','Polished','Radiant','Flawless','Sacred','Royal','Trapazoid','Vycibrený Trapazoid','Briliant Trapazoid','Znamenitý Trapazoid','Imperial','Vycibrený Imperial','Brilatný Imperial','Znamenitý Imperial'];
+var string_rarity = ['Flawed','Splitered','Simple','Full','Polished','Radiant','Flawless','Sacred','Royal','Trapezoid','Refined Trapezoid','Brilliant Trapezoid','Exquisite Trapezoid','Imperial','Refined Imperial','Brilliant Imperial','Exquisite Imperial'];
 
 var requir_rarity_deff = [null,2,4,8,16,40,120,360,800,1600,2800,4400,6400,8800,11600,14800,18400];
 var melt_rarity_deff =   [1,2,4,8,20,60,180,400,800,1400,2200,3200,4400,5800,7400,9200,11200];
@@ -113,7 +113,7 @@ function generateResult(){
             }else alert('Unknown error!');
         }
 
-        result.innerHTML = ':)';
+        console.log(':3');
         result.innerHTML = `You will need <b>${resulter * n}</b> dust for upgrading <b>${n}</b> stones. Good luck with farm!`;
     }
     resulter = 0;
