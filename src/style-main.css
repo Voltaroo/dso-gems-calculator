@@ -1,0 +1,96 @@
+html{
+    background-color: black;
+    color: white;
+    margin: 0% 10%;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(61,170,233);
+}
+body{
+    border: 3px solid white;
+    padding: 10px 25px;
+}
+h2,b{
+    color:rgb(61, 170, 233);
+}
+
+#calc input{
+    background: transparent;
+    color: white;
+}
+#calc input, select{
+    background-color: transparent;
+    border: 1px solid rgb(61, 170, 233);
+    color: white;
+}
+#calc input::placeholder{
+    color: white;
+}
+#calc option{
+    color: black;
+
+}
+a,a:visited{
+    color: white;
+
+}
+a:hover{
+    color: rgb(61,170,233);
+    transition: 0.5s;
+}
+
+/*TABLE styles*/
+
+table{
+    margin-right: 10px;
+}
+
+table th{
+    padding: 10px;
+}
+table,th,td{
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+footer{
+    clear: both;
+    height: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#td_center{
+    text-align: center;
+}
+
+.table-window-separator table{
+    float: left;
+}
+
+.sub-header{
+    text-align: left;
+}
+
+.th_header{
+    color: red;
+    text-align: left;
+    padding-left: 5px;
+}
+
+@media screen and (min-width:150px) and (max-width: 950px){
+    html{
+        margin: 0;
+
+    }
+    body{
+        margin-left: 5%; 
+        padding: 0;
+        border: none;
+    }
+    table{
+        margin-bottom: 20px;
+    }
+}
