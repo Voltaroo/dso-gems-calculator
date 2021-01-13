@@ -1,8 +1,8 @@
 # Drakensang Online's Gems calculator
 Gems calculator for Drakensang Online MMORPG game.
 
-- **English version**: https://voltaroo.github.io/dso-gems-calculator/web-runner-english.html
-- **Slovak version**: https://voltaroo.github.io/dso-gems-calculator/web-runner-slovak.html
+- **English version**: [https://voltaroo.github.io/dso-gems-calculator/web-runner-english](https://voltaroo.github.io/dso-gems-calculator/web-runner-english.html)
+- **Slovak version**: [https://voltaroo.github.io/dso-gems-calculator/web-runner-slovak](https://voltaroo.github.io/dso-gems-calculator/web-runner-slovak.html)
 
 ## [ENG]
 
