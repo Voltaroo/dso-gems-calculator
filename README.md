@@ -4,6 +4,8 @@ Gems calculator for Drakensang Online MMORPG game.
 - **English version**: [https://voltaroo.github.io/dso-gems-calculator/web-runner-english](https://voltaroo.github.io/dso-gems-calculator/web-runner-english.html)
 - **Slovak version**: [https://voltaroo.github.io/dso-gems-calculator/web-runner-slovak](https://voltaroo.github.io/dso-gems-calculator/web-runner-slovak.html)
 
+[Back to Github](https://github.com/Voltaroo/dso-gems-calculator)
+
 ## [ENG]
 
 Welcome to the **Drakensang Online Gem Calculator**! This page provides user to calculate how much dust he needs for upgrading his gems from tier **x** to tier **y**. 
