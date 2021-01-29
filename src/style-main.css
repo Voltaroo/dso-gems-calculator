@@ -55,7 +55,7 @@ table,th,td{
     border: 1px solid white;
 }
 
-footer{
+.footer{
     clear: both;
     height: 20px;
     padding-top: 5px;
