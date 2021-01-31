@@ -22,7 +22,7 @@ I will try to enhance website during future. Here's a list of *what I want to ad
 
 If you have any question about the website, or have great idea that would help the page, don't hesitate and write in the discussion, or on my e-mail *nendorans@gmail.com*, or privately here on Github.
 
-P.S.: I'm sorry, but my English is not perfect, but I'm trying to enchance it everyday!
+P.S.: I'm sorry, but my English is not perfect, but I'm trying to enhance it everyday!
 
 ## [SVK]
 
